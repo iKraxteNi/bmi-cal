@@ -37,7 +37,7 @@ namespace WinFormsApp4
         private void button1_Click(object sender, EventArgs e)
         {
             
-            if (checkBox2.Checked & radioButton1.Checked | radioButton2.Checked )
+            if (checkBox2.Checked & ( radioButton1.Checked | radioButton2.Checked ))
             {
                 try
                 {
